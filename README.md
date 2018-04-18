@@ -95,9 +95,94 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 文件格式，使用notepad++改为：unix，UTF8无BOM格式
 
-* 配置详细说明：https://toolchain.gitbook.com/config.html
+* 配置详细说明：[https://toolchain.gitbook.com/config.html](https://toolchain.gitbook.com/config.html)
 
 本例主要添加插件及插件配置。
+
+plugins是插件配置
+
+```
+{
+    "plugins": [
+        "expandable-chapters-small",
+        "anchor-navigation-ex@0.1.8",
+        "-sharing", "sharing-plus",
+        "splitter",
+        "tbfed-pagefooter",
+        "-lunr", "-search", "search-plus",
+        "prism", "-highlight",
+        "github",
+        "donate",
+        "get-pdf-link",
+        "theme-comscore"
+    ],
+    "pluginsConfig": {
+        "expandable-chapters-small": {},
+        "tbfed-pagefooter": {
+            "copyright":"Copyright (C) Gong Weilin 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "associatedWithSummary": false,
+            "mode": "float",
+            "multipleH1": true,
+            "showLevel": true
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/gwlwmm/"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "wechat": true,
+            "all": [
+               "facebook", "google",
+               "weibo", "qq"
+            ]
+        },
+        "donate": {
+            "wechat": "/docs/assets/weixin.jpg",
+            "title": "",
+            "button": "欢迎交流",
+            "wechatText": "微信"
+        },
+        "get-pdf-link": {
+            "base": "/Perl-Programming-experience.pdf"
+        },
+        "theme-default": {
+             "showLevel": true
+        }
+    }
+}
+
+```
+
+
+
+plugins是插件配置
+
+
 
 ---
 
