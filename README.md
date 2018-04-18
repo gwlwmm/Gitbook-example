@@ -87,6 +87,8 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 5. 编辑器会修改git状态，并且会检查目录下的文件改动。例如，在目录下直接增加a.md，打开编辑器时，会提示新增文件，此时选择sync，则会修改git 状态，类似git add a.md; 而如果选择discard，则a.md会被删除。所以，如果想不通过编辑器修改项目文件，请不要打开编辑器。
 6. 编写文档时，各种排版功能，请自行试验。
 
+---
+
 ## 制作gitbook
 
 ### 配置gitbook工程
@@ -201,23 +203,31 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 * 为服务器apache配置添加：
 
-`<Directory "/home/www/pub">`
+`<Directory "/home/www/pub">`
 
-`    Options None`
+`Options None`
 
-`    AllowOverride None`
+`AllowOverride None`
 
-`    Require all granted`
+`Require all granted`
 
-`    Deny from env=blockAccess`
+`Deny from env=blockAccess`
 
-`    AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi`
+`AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi`
 
 `</Directory>`
 
 `Alias /perlprogramex "/home/www/pub/perlprogramex"`
 
-访问服务器: http://x.x.x.x/p`erlprogramex`
+访问文档: [http://x.x.x.x/perlprogramex](http://x.x.x.x/p`erlprogramex`)
+
+注意：在book.json的插件配置中有指定weixin.jpg等资源绝对路径，发布到网站时，应该调整绝对路径。
+
+要重新生成\_book，可执行
+
+`gitbook build`
+
+## 提交改动到git项目
 
 ---
 
