@@ -4,15 +4,27 @@
 
 ## 工具准备
 
-安装gitbook editor
+### 安装gitbook editor
 
-下载地址：https://github.com/GitbookIO/editor-legacy/releases
+下载地址：https://legacy.gitbook.com/editor
 
-安装git客户端
+### 安装git客户端
 
-下载地址：https://git-scm.com/download/win
+下载地址：[https://git-scm.com/download/win](https://git-scm.com/download/win)
 
-安装nodejs
+### 安装nodejs
+
+
+
+
+
+参考资料
+
+https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
+
+https://github.com/GitbookIO/gitbook
+
+https://toolchain.gitbook.com/
 
 
 
