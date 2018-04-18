@@ -101,7 +101,7 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 1. plugins是插件配置，插件名前面添加减号，表示禁用插件，插件名后边@指定插件版本
 2. pluginsConfig是插件对应的配置
-3. 所有插件（及插件配置），可在https://plugins.gitbook.com/查看
+3. 所有插件（及插件配置），可在[https://plugins.gitbook.com/查看](https://plugins.gitbook.com/查看)
 
 ```
 {
@@ -181,9 +181,21 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 ### 制作pdf
 
-打开E:\mydata\coderlikewind\perl\Perl-Programming-experience
+* 打开E:\mydata\coderlikewind\perl\Perl-Programming-experience
 
-右键
+* 鼠标单击右键----&gt;Git Bash Here
+
+`gitbook install`
+
+`gitbook pdf ./ Perl-Programming-experience.pdf`
+
+### 预览gitbook
+
+gitbook serve ./
+
+在浏览器打开http://localhost:4000即可查看
+
+### 发布到个人网站
 
 ---
 
