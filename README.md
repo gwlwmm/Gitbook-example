@@ -105,6 +105,8 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 2. pluginsConfig是插件对应的配置
 3. 所有插件（及插件配置），可在[https://plugins.gitbook.com/查看](https://plugins.gitbook.com/查看)
 
+book.json内容：
+
 ```
 {
     "plugins": [
@@ -208,11 +210,11 @@ gitbook serve ./
 
 ```
 <Directory "/home/www/pub">
-	Options None
-	AllowOverride None
-	Require all granted
-	Deny from env=blockAccess
-	AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi
+    Options None
+    AllowOverride None
+    Require all granted
+    Deny from env=blockAccess
+    AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi
 </Directory>
 Alias /perlprogramex "/home/www/pub/perlprogramex"
 ```
