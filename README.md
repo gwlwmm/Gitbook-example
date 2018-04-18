@@ -229,6 +229,28 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 ## 提交改动到git项目
 
+* 打开E:\mydata\coderlikewind\perl\Perl-Programming-experience目录
+
+* 如果不需要gitbook生成的数据，可以删除子目录\_book，以及node\_modules
+
+* 鼠标单击右键----&gt;Git Bash Here
+
+`git add ./* `
+
+`检查文件改动是否正常：git status`
+
+`git commit -m 'Commit all docs'`
+
+`git push origin master`
+
+注：如果在先前操作中，由于gitbook editor中执行sync，修改了文件状态，可以在最后一次提交时，也打开gitbook editor，让其重新修改文件状态即可。同样在git bash中执行git push 提交到git。
+
+
+
+
+
+
+
 ---
 
 ## 参考资料
@@ -238,4 +260,8 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 
 [https://toolchain.gitbook.com/](https://toolchain.gitbook.com/)
+
+http://gitbook.zhangjikai.com/
+
+https://www.kancloud.cn/xiaoyulive/gitbook/506532
 
