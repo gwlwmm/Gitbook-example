@@ -46,7 +46,7 @@ npm install gitbook-cli -g
 
 本地下载git项目
 
-找一个目录，本例为
+在windows资源管理器打开一个目录，本例为E:\mydata\coderlikewind\perl
 
 ---
 
