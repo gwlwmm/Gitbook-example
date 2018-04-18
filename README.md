@@ -187,13 +187,16 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 * 鼠标单击右键----&gt;Git Bash Here
 
-`gitbook install`
-
-`gitbook pdf ./ Perl-Programming-experience.pdf`
+```
+gitbook install
+gitbook pdf ./ Perl-Programming-experience.pdf
+```
 
 ### 预览gitbook
 
-`gitbook serve ./`
+```
+gitbook serve ./
+```
 
 在浏览器打开[http://localhost:4000即可查看](http://localhost:4000即可查看)
 
@@ -203,21 +206,16 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 * 为服务器apache配置添加：
 
-`<Directory "/home/www/pub">`
-
-`Options None`
-
-`AllowOverride None`
-
-`Require all granted`
-
-`Deny from env=blockAccess`
-
-`AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi`
-
-`</Directory>`
-
-`Alias /perlprogramex "/home/www/pub/perlprogramex"`
+```
+<Directory "/home/www/pub">
+	Options None
+	AllowOverride None
+	Require all granted
+	Deny from env=blockAccess
+	AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi
+</Directory>
+Alias /perlprogramex "/home/www/pub/perlprogramex"
+```
 
 访问文档: [http://x.x.x.x/perlprogramex](http://x.x.x.x/p`erlprogramex`)
 
@@ -225,7 +223,9 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 要重新生成\_book，可执行
 
-`gitbook build`
+```
+gitbook build
+```
 
 ## 提交改动到git项目
 
@@ -235,21 +235,14 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 * 鼠标单击右键----&gt;Git Bash Here
 
-`git add ./* `
-
-`检查文件改动是否正常：git status`
-
-`git commit -m 'Commit all docs'`
-
-`git push origin master`
+```
+git add ./*
+检查文件改动是否正常：git status
+git commit -m 'Commit all docs'
+git push origin master
+```
 
 注：如果在先前操作中，由于gitbook editor中执行sync，修改了文件状态，可以在最后一次提交时，也打开gitbook editor，让其重新修改文件状态即可。同样在git bash中执行git push 提交到git。
-
-
-
-
-
-
 
 ---
 
@@ -261,7 +254,7 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 [https://toolchain.gitbook.com/](https://toolchain.gitbook.com/)
 
-http://gitbook.zhangjikai.com/
+[http://gitbook.zhangjikai.com/](http://gitbook.zhangjikai.com/)
 
-https://www.kancloud.cn/xiaoyulive/gitbook/506532
+[https://www.kancloud.cn/xiaoyulive/gitbook/506532](https://www.kancloud.cn/xiaoyulive/gitbook/506532)
 
