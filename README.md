@@ -87,6 +87,8 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 5. 编辑器会修改git状态，并且会检查目录下的文件改动。例如，在目录下直接增加a.md，打开编辑器时，会提示新增文件，此时选择sync，则会修改git 状态，类似git add a.md; 而如果选择discard，则a.md会被删除。所以，如果想不通过编辑器修改项目文件，请不要打开编辑器。
 6. 编写文档时，各种排版功能，请自行试验。
 
+## 制作gitbook
+
 
 
 ---
