@@ -44,9 +44,22 @@ npm install gitbook-cli -g
 
 * 新建项目后，初始化新建README.md（任意内容）
 
-本地下载git项目
+### 本地下载git项目
 
-在windows资源管理器打开一个目录，本例为E:\mydata\coderlikewind\perl
+* 在git上，为当前windows系统添加ssh key
+
+详细操作，请另搜资料。
+
+* 在windows打开一个目录，本例为E:\mydata\coderlikewind\perl
+
+* 单击鼠标右键-------&gt;Git Bash Here
+
+* 下载代码
+
+```
+在git bash窗口执行
+git clone git@github.com:gwlwmm/Perl-Programming-experience.git
+```
 
 ---
 
