@@ -191,11 +191,33 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 ### 预览gitbook
 
-gitbook serve ./
+`gitbook serve ./`
 
-在浏览器打开http://localhost:4000即可查看
+在浏览器打开[http://localhost:4000即可查看](http://localhost:4000即可查看)
 
 ### 发布到个人网站
+
+* 将E:\mydata\coderlikewind\perl\Perl-Programming-experience\\_book复制到服务器后台/home/www/pub/perlprogramex
+
+* 为服务器apache配置添加：
+
+`<Directory "/home/www/pub">`
+
+`    Options None`
+
+`    AllowOverride None`
+
+`    Require all granted`
+
+`    Deny from env=blockAccess`
+
+`    AddType text/plain .shtml .php .php3 .phtml .phtm .pl .py .cgi`
+
+`</Directory>`
+
+`Alias /perlprogramex "/home/www/pub/perlprogramex"`
+
+访问服务器: http://x.x.x.x/p`erlprogramex`
 
 ---
 
