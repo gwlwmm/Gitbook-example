@@ -8,8 +8,6 @@
         "-lunr", "-search", "search-plus",
         "prism", "-highlight",
         "github",
-        "donate",
-        "get-pdf-link",
         "theme-comscore"
     ],
     "pluginsConfig": {
@@ -56,15 +54,6 @@
                "facebook", "google",
                "weibo", "qq"
             ]
-        },
-        "donate": {
-            "wechat": "/docs/assets/weixin.jpg",
-            "title": "",
-            "button": "欢迎交流",
-            "wechatText": "微信"
-        },
-        "get-pdf-link": {
-            "base": "/Perl-Programming-experience.pdf"
         },
         "theme-default": {
              "showLevel": true
