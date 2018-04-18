@@ -89,15 +89,15 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 ## 制作gitbook
 
-配置gitbook工程
+### 配置gitbook工程
 
-在E:\mydata\coderlikewind\perl\Perl-Programming-experience下新建文件gitbook.json
+* 在E:\mydata\coderlikewind\perl\Perl-Programming-experience下新建文件book.json
 
+文件格式，使用notepad++改为：unix，UTF8无BOM格式
 
+* 配置详细说明：https://toolchain.gitbook.com/config.html
 
-
-
-
+本例主要添加插件及插件配置。
 
 ---
 
