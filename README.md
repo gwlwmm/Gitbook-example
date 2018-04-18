@@ -14,6 +14,8 @@
 
 ### 安装nodejs
 
+下载地址：https://nodejs.org/zh-cn/
+
 ## 参考资料
 
 [https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)
