@@ -26,9 +26,13 @@ npm install gitbook-cli -g
 
 ### 安装calibre-ebook
 
-下载地址：https://calibre-ebook.com/download\_windows
+下载地址：[https://calibre-ebook.com/download\_windows](https://calibre-ebook.com/download_windows)
 
+---
 
+12
+
+---
 
 ## 参考资料
 
