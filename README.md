@@ -56,10 +56,18 @@ npm install gitbook-cli -g
 
 * 下载代码
 
-```
 在git bash窗口执行
-git clone git@github.com:gwlwmm/Perl-Programming-experience.git
+
 ```
+git clone git@github.com:gwlwmm/Perl-Programming-experience.git
+cd Perl-Programming-experience
+```
+
+### 使用gitbook editor编辑文档
+
+
+
+
 
 ---
 
