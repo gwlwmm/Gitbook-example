@@ -6,7 +6,7 @@
 
 ### 安装gitbook editor
 
-下载地址：https://legacy.gitbook.com/editor
+下载地址：[https://legacy.gitbook.com/editor](https://legacy.gitbook.com/editor)
 
 ### 安装git客户端
 
@@ -14,17 +14,11 @@
 
 ### 安装nodejs
 
+## 参考资料
 
+[https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)
 
+[https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 
-
-参考资料
-
-https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md
-
-https://github.com/GitbookIO/gitbook
-
-https://toolchain.gitbook.com/
-
-
+[https://toolchain.gitbook.com/](https://toolchain.gitbook.com/)
 
