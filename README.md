@@ -60,14 +60,23 @@ npm install gitbook-cli -g
 
 ```
 git clone git@github.com:gwlwmm/Perl-Programming-experience.git
-cd Perl-Programming-experience
 ```
 
 ### 使用gitbook editor编辑文档
 
+* 打开gitbook editor
 
+* 选择菜单---&gt;GitBook Editor----&gt;open
 
+![](/assets/gitbook-editor-open.png)
 
+* 选择E:\mydata\coderlikewind\perl\Perl-Programming-experience
+
+![](/assets/gitbook-editor-open2.png)
+
+* 编辑文档内容，本例文档内容如下
+
+![](/assets/gitbook-editor-content.png)
 
 ---
 
