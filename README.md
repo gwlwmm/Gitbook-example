@@ -89,6 +89,14 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 ## 制作gitbook
 
+配置gitbook工程
+
+在E:\mydata\coderlikewind\perl\Perl-Programming-experience下新建文件gitbook.json
+
+
+
+
+
 
 
 ---
