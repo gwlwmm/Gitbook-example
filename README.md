@@ -38,11 +38,15 @@ npm install gitbook-cli -g
 
 * 在git操作新建项目，命名为：Perl-Programming-experience
 
-本文在github建立的项目为：https://github.com/gwlwmm/Perl-Programming-experience
+本文在github建立的项目为：[https://github.com/gwlwmm/Perl-Programming-experience](https://github.com/gwlwmm/Perl-Programming-experience)
 
 有关git操作，请另搜资料。
 
 * 新建项目后，初始化新建README.md（任意内容）
+
+本地下载git项目
+
+找一个目录，本例为
 
 ---
 
