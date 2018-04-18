@@ -99,7 +99,9 @@ git clone git@github.com:gwlwmm/Perl-Programming-experience.git
 
 本例主要添加插件及插件配置。
 
-plugins是插件配置
+plugins是插件配置，插件名前面添加减号，表示禁用插件，插件名后边@指定插件版本
+
+
 
 ```
 {
@@ -175,14 +177,9 @@ plugins是插件配置
         }
     }
 }
-
 ```
 
-
-
 plugins是插件配置
-
-
 
 ---
 
