@@ -16,9 +16,13 @@
 
 下载地址：[https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)
 
-安装gitbook-cli
+### 安装gitbook-cli
 
+打开cmd命令行窗口，输入
 
+```
+npm install gitbook-cli -g
+```
 
 ## 参考资料
 
