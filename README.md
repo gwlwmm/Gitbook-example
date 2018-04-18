@@ -14,7 +14,11 @@
 
 ### 安装nodejs
 
-下载地址：https://nodejs.org/zh-cn/
+下载地址：[https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)
+
+安装gitbook-cli
+
+
 
 ## 参考资料
 
